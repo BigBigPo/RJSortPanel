@@ -1,0 +1,6 @@
+framework module Pods_BASE_POD_RJSortCat {
+  umbrella header "Pods-BASE_POD-RJSortCat-umbrella.h"
+
+  export *
+  module * { export * }
+}

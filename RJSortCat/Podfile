@@ -1,0 +1,12 @@
+platform :ios, '10.0'
+inhibit_all_warnings!
+use_frameworks!
+
+abstract_target 'BASE_POD' do
+    pod 'SnapKit', '~> 5.0.0'
+    pod 'RxSwift', '~> 5.0.0'
+    pod 'RxCocoa', '~> 5.0.0'
+
+    target 'RJSortCat' do 
+    end
+end
